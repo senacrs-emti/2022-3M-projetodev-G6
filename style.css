@@ -2,9 +2,6 @@ body{
     background-color: #110d2b;
 }
 
-
-/* Início do header*/
-
 /* Add a black background color to the top navigation */
 .topnav {
     opacity: 1.0;
@@ -19,13 +16,13 @@ body{
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    font-size: 20px;
+    font-size: 17px;
   }
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: rgb(29, 20, 155);
-    color: rgb(255, 255, 255);
+    background-color: rgb(196, 186, 186);
+    color: black;
   }
   
   /* Add an active class to highlight the current page */
@@ -71,80 +68,176 @@ element.style {
 
 /* Fim do header */
 
-
-/* cards */
-.grid {
-  position: relative;
-  margin: 0 auto;
-  padding: 1em 0 4em;
-  max-width: 1000px;
-  list-style: none;
-  text-align: center;
+*,
+*::before,
+*::after{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.grid figure {
+body{
+  background: #323232;
+}
+
+.title{  
+  margin: 5%;
+
+  font-family: 'Arial';
+  font-weight: 300;
+
+  color: white;
+  letter-spacing: .04em;
+}
+
+.container{
+  width: 700px;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 32px;
+
+  margin: 5%;
+}
+
+.button{
+  display: flex;
+  justify-content: center;
+
   position: relative;
-  float: left;
+
+  padding: 12px 0;
+
+  font-family: 'Inter';
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 300;
+
+  color: #F6F6F6;
+  border: 1px solid blueviolet;
+  text-decoration: none;
+  
   overflow: hidden;
-  margin: 10px 1%;
-  min-width: 320px;
-  max-width: 480px;
-  max-height: 360px;
-  width: 48%;
-  background: #3085a3;
-  text-align: center;
   cursor: pointer;
 }
 
-figure.effect-sadie figcaption::before, figure.effect-sadie p {
-  -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
-  transition: opacity 0.35s, transform 0.35s;
-}
-
-figure.effect-sadie p {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  padding: 2em;
-  width: 100%;
-  opacity: 0;
-  -webkit-transform: translate3d(0,10px,0);
-  transform: translate3d(0,10px,0);
-}
-
-.grid figure figcaption > a {
-  z-index: 1000;
-  text-indent: 200%;
-  white-space: nowrap;
-  font-size: 0;
-  opacity: 0;
-}
-
-figure.effect-sadie h2 {
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 100%;
-  color: #484c61;
-  -webkit-transition: -webkit-transform 0.35s, color 0.35s;
-  transition: transform 0.35s, color 0.35s;
-  -webkit-transform: translate3d(0,-50%,0);
-  transform: translate3d(0,-50%,0);
-}
-
-.grid figure figcaption, .grid figure figcaption > a {
-  position: absolute;
-  top: 0;
-  left: 0;
+.button::before{
+  content: "";
   width: 100%;
   height: 100%;
-}
 
-.grid figure img {
+  position: absolute;
+
+  background: blueviolet;
+
+  transition: all .5s;
+  z-index: -1;
+}
+/*EFEITO DE HOVER BOTÃO*/
+
+.button-inter{
+  display: flex;
+  justify-content: center;
+
   position: relative;
-  display: block;
-  min-height: 100%;
-  max-width: 100%;
-  opacity: 0.8;
+
+  margin: 0;
+  padding: 12px 0;
+
+  font-family: 'Inter';
+  font-size: 21px;
+  line-height: 28px;
+  font-weight: 300;
+
+  color: #F6F6F6;
+  border: 1px solid rgb(138, 43, 226);
+
+  text-decoration: none;
+  cursor: pointer;
+
+  transition: .5s;
+}
+/* BOTÃO */
+.item9{
+  position: relative;
+  overflow: hidden;
+
+  transition: .2s;
 }
 
+.item9:hover{
+  color: #eee;
+  background: #8A2BE2;
+  box-shadow: 0 0 10px #8A2BE2, 0 0 15px #5B2BE2, 0 0 30px #730bec;  
+
+  transition-delay: 1s;
+}
+
+.item9 span{
+  position: absolute;
+  display: block;
+}
+
+.item9 span:nth-child(1){
+  width: 100%;
+  height: 2px;
+
+  top: 0;
+  left: -100%;
+
+  background: linear-gradient(88.89deg, transparent, #5B2BE2);
+}
+
+.item9:hover span:nth-child(1){
+  left: 100%;
+  transition: 1s;
+}
+
+.item9 span:nth-child(2){
+  width: 2px;
+  height: 100%;
+
+  right: 0;
+  top: -100%;
+
+  background: linear-gradient(181.44deg, transparent, #5B2BE2);
+}
+
+.item9:hover span:nth-child(2){
+  top: 100%;
+  transition: 1s;
+  transition-delay: .25s;
+}
+
+.item9 span:nth-child(3){
+  width: 100%;
+  height: 2px;
+
+  bottom: 0;
+  right: -100%;
+
+  background: linear-gradient(269.44deg, transparent, #5B2BE2);
+}
+
+.item9:hover span:nth-child(3){
+  right: 100%;
+  transition: 1s;
+  transition-delay: .5s;
+}
+
+.item9 span:nth-child(4){
+  width: 2px;
+  height: 100%;
+
+  left: 0;
+  bottom: -100%;
+
+  background: linear-gradient(359.88deg, transparent, #5B2BE2);
+}
+
+.item9:hover span:nth-child(4){
+  bottom: 100%;
+  transition: 1s;
+  transition-delay: .75s;
+}
