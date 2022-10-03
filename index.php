@@ -16,7 +16,7 @@ include_once "includes/header.php";
   <!-- The slideshow/carousel -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="imagens/image1.png" alt="America do sul" class="d-block w-100" style="height: 500px;">
+      <img src="imagens/chicagobulls.jpg" alt="Chicago Bulls" class="d-block w-100" style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
         <h1><a class="nav-link" href="americadosul.php">Chicago Bulls</a></h1> 
         <h5>1990 - 1999</h5>
@@ -52,12 +52,11 @@ include_once "includes/header.php";
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
   <!--link css styles-->
   <link rel="stylesheet" href="style.css">
-</head>
 <body>
   <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ipsum nunc. Cras mi sapien, consectetur id efficitur nec, consequat id ante. Phasellus id suscipit neque, id fringilla justo. Maecenas tempor dignissim velit, pretium posuere nisi porta rhoncus. Maecenas mi nisl, aliquet at turpis ut, commodo finibus leo. Proin sed venenatis dolor. Suspendisse sapien velit, euismod at pharetra nec, pretium quis est. Fusce eget lectus fermentum, ornare metus eget, fermentum arcu. Integer ligula felis, lacinia eget risus non, vehicula semper lorem. Vestibulum tempor elit quis nisi mollis, sed ornare tortor pulvinar. Fusce id iaculis augue, sit amet scelerisque dui.
 <br>
 Phasellus ut mi sed turpis dapibus pretium. Nullam aliquam diam a dolor sagittis imperdiet. In egestas viverra ante. Sed quis felis et mauris feugiat condimentum. Nulla condimentum rhoncus bibendum. Ut consequat placerat tincidunt. Phasellus sit amet velit vitae lorem mattis viverra quis rutrum magna. Integer lobortis ornare quam, eget blandit lacus rhoncus finibus. Nullam rutrum dictum semper. Sed id placerat turpis. Fusce at enim varius, venenatis ante id, cursus nibh. Integer sed maximus orci, et porttitor erat. Maecenas quam tortor, imperdiet sit amet nunc vel, fringilla consectetur lacus. Suspendisse imperdiet dolor ac metus laoreet, in bibendum nibh ullamcorper.</h5>
-  <div class="container">
+  <div class="container1">
 
     <a class="button-inter item9"><span></span><span></span><span></span><span></span>Comece a explorar</a>
   </div>
