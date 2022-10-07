@@ -4,7 +4,7 @@ include_once "includes/header.php";
 ?>
 
 <!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel">
+<div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin: 10px;">
 
   <!-- Indicators/dots -->
   <div class="carousel-indicators">

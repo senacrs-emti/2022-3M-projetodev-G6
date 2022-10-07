@@ -1,11 +1,11 @@
 body{
-    background-color: #110d2b;
+  background: #ffffff;
 }
-
 /* Add a black background color to the top navigation */
 .topnav {
     opacity: 1.0;
     overflow: hidden;
+    background: #000000;
   }
   
   /* Style the links inside the navigation bar */
@@ -21,8 +21,8 @@ body{
   
   /* Change the color of links on hover */
   .topnav a:hover {
-    background-color: rgb(196, 186, 186);
-    color: black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
   
   /* Add an active class to highlight the current page */
@@ -76,9 +76,6 @@ element.style {
   box-sizing: border-box;
 }
 
-body{
-  background: #323232;
-}
 
 .title{  
   margin: 5%;
@@ -86,7 +83,7 @@ body{
   font-family: 'Arial';
   font-weight: 300;
 
-  color: white;
+  color: rgb(0, 0, 0);
   letter-spacing: .04em;
 }
 
@@ -114,7 +111,7 @@ body{
   line-height: 28px;
   font-weight: 300;
 
-  color: #F6F6F6;
+  color: #000000; 
   border: 1px solid blueviolet;
   text-decoration: none;
   
@@ -150,7 +147,7 @@ body{
   line-height: 28px;
   font-weight: 300;
 
-  color: #F6F6F6;
+  color: #000000;
   border: 1px solid rgb(138, 43, 226);
 
   text-decoration: none;
