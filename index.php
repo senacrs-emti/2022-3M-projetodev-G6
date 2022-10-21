@@ -18,20 +18,20 @@ include_once "includes/header.php";
     <div class="carousel-item active">
       <img src="imagens/chicagobulls.jpg" alt="Chicago Bulls" class="d-block w-100" style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-        <h1><a class="nav-link" href="americadosul.php">Chicago Bulls</a></h1> 
+        <h1><a class="nav-link" href="pagina1.php">Chicago Bulls</a></h1> 
         <h5>1990 - 1999</h5>
         </div>
     </div>
     <div class="carousel-item">
       <img src="imagens/oriente.jpg" alt="Chicago" class="d-block w-100" style="height: 500px;">
       <div class="carousel-caption d-none d-md-block">
-        <h1><a class="nav-link" href="oriente.php">Los Angeles Lakers</a></h1>    
+        <h1><a class="nav-link" href="pagina2.php">Los Angeles Lakers</a></h1>    
         <h5>2000 - 2020</h5>
         </div>
     </div>
     <div class="carousel-item">  <img src="imagens/italia.jpg" alt="." class="d-block w-100" style="height: 500px;">  
     <div class="carousel-caption d-none d-md-block">
-        <h1><a class="nav-link" href="europa.php">Boston Celtics</a></h1>    
+        <h1><a class="nav-link" href="pagina3.php">Boston Celtics</a></h1>    
         <h5>1960 - 2000</h5>
         </div></div>
   </div>
