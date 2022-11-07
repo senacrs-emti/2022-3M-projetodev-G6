@@ -3,33 +3,48 @@ include_once "includes/head.php";
 include_once "includes/header.php";
 ?>
 
-<!-- Carousel -->
-<div id="demo" class="carousel slide" data-bs-ride="carousel" style="margin: 10px;">
+<body>
+  <div class="container02">
 
-  <!-- Indicators/dots -->
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  <div class=":card card0">
+    <div class="border">
+      <h2>Lebron James<h2>
+      <div class="texto">
+        <span class="g">Títulos</span>
+        <span class="g">32</span>
+        <span class="g">gols</span>
+        <span class="g">500</span>
+    </div>
+    </div>
   </div>
 
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon"></span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <span class="carousel-control-next-icon"></span>
-  </button>
-</div>
-</div>
+  <div class=":card card0">
+    <div class="border">
+      <h2>Lebron James<h2>
+      <div class="texto">
+        <span class="g">Títulos</span>
+        <span class="g">32</span>
+        <span class="g">gols</span>
+        <span class="g">500</span>
+    </div>
+    </div>
+  </div>
 
-  <!--font-family-->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;500&display=swap" rel="stylesheet">
-  <!--link css styles-->
-  <link rel="stylesheet" href="style.css">
-<body>
+  <div class=":card card0">
+    <div class="border">
+      <h2>Lebron James<h2>
+      <div class="texto">
+        <span class="g">Títulos</span>
+        <span class="g">32</span>
+        <span class="g">gols</span>
+        <span class="g">500</span>
+    </div>
+    </div>
+  </div>
+
+  </div>
+
+
   <h5 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae ipsum nunc. Cras mi sapien, consectetur id efficitur nec, consequat id ante. Phasellus id suscipit neque, id fringilla justo. Maecenas tempor dignissim velit, pretium posuere nisi porta rhoncus. Maecenas mi nisl, aliquet at turpis ut, commodo finibus leo. Proin sed venenatis dolor. Suspendisse sapien velit, euismod at pharetra nec, pretium quis est. Fusce eget lectus fermentum, ornare metus eget, fermentum arcu. Integer ligula felis, lacinia eget risus non, vehicula semper lorem. Vestibulum tempor elit quis nisi mollis, sed ornare tortor pulvinar. Fusce id iaculis augue, sit amet scelerisque dui.
 <br>
 Phasellus ut mi sed turpis dapibus pretium. Nullam aliquam diam a dolor sagittis imperdiet. In egestas viverra ante. Sed quis felis et mauris feugiat condimentum. Nulla condimentum rhoncus bibendum. Ut consequat placerat tincidunt. Phasellus sit amet velit vitae lorem mattis viverra quis rutrum magna. Integer lobortis ornare quam, eget blandit lacus rhoncus finibus. Nullam rutrum dictum semper. Sed id placerat turpis. Fusce at enim varius, venenatis ante id, cursus nibh. Integer sed maximus orci, et porttitor erat. Maecenas quam tortor, imperdiet sit amet nunc vel, fringilla consectetur lacus. Suspendisse imperdiet dolor ac metus laoreet, in bibendum nibh ullamcorper.</h5>

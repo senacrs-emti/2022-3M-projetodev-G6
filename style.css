@@ -238,3 +238,31 @@ element.style {
   transition: 1s;
   transition-delay: .75s;
 }
+
+
+
+
+/*sss?*/
+
+*{
+  padding: 0; margin: 0; font-family: sans-serif;
+
+}
+
+.container02{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 0 auto;
+
+}
+
+.border{
+  height: 369px;
+  width: 299px;
+  background: transparent;
+  border-radius: 10px;
+  transition: ;
+}
