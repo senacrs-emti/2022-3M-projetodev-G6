@@ -6,7 +6,7 @@ include_once "includes/header.php";
 <body>
   <div class="container02">
 
-  <div class=":card card0">
+  <div class="card card0">
     <div class="border">
       <h2>Lebron James<h2>
       <div class="texto">
@@ -18,7 +18,7 @@ include_once "includes/header.php";
     </div>
   </div>
 
-  <div class=":card card0">
+  <div class="card card1">
     <div class="border">
       <h2>Lebron James<h2>
       <div class="texto">
@@ -30,7 +30,7 @@ include_once "includes/header.php";
     </div>
   </div>
 
-  <div class=":card card0">
+  <div class="card card2">
     <div class="border">
       <h2>Lebron James<h2>
       <div class="texto">
